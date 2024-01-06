@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: 'Arial', sans-serif;
+    background-color: hsl(0, 0%, 86%);
 }
 h1 {
     text-align: center;
@@ -89,6 +90,7 @@ th, td {
 }
 
 #chart1,
+#pieChart,
 #donutChart {
     max-width: 100%;
     max-height: 100%;
