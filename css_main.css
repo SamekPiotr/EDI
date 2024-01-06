@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    font-family: 'Arial', sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: hsl(0, 0%, 86%);
+    padding: 25px;
+}
+
+header {
+    background-color: hsl(0, 0%, 15%);
+    padding: 0px;
+    margin: 0px;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+header li {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+     
+}
+header li:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.box1 {
+    margin: 0px;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+
+.box1 #button1:hover {
+    background-color: hsl(0, 0%, 24%); 
+}
+.box1 #button1 {
+    color: white;
+    background-color: hsl(0, 0%, 35%);
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+table {
+    background-color: hsl(0, 0%, 25%);
+    color: white;
+    width: 100%;
+    margin: 10px;
+    padding: 0;
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+table, th, td {
+    border: 1px solid;
+    
+}
+table :hover{
+    background-color: hsl(0, 0%, 15%);
+}
+th, td {
+    border: 2px solid hsl(0, 0%, 0%);
+    padding: 12px;
+    text-align: left;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#chart1,
+#donutChart {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
